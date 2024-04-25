@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/MyCustomEditor.uss?fileID=7433441132597879392&amp;guid=883309e0cbf9844a4910c12f51e053ca&amp;type=3#MyCustomEditor" />
+    <editor:ObjectField label="Object Field" name="ObjectField" />
+    <engine:TextField label="Text Field" placeholder-text="filler text" style="width: 100%; flex-direction: row; align-self: flex-start;">
+        <engine:Button text="..." style="width: auto; white-space: nowrap; -unity-text-align: middle-center;" />
+    </engine:TextField>
+    <engine:Foldout text="AnmationClips" name="AnimationsFoldout" style="flex-wrap: wrap;" />
+    <engine:VisualElement data-source-path="Animator" style="flex-grow: 1; flex-direction: column-reverse;">
+        <engine:VisualElement style="flex-grow: 1;">
+            <engine:Button text="Bake" name="BakeButton" style="min-width: auto; max-width: none; width: auto; background-color: rgb(183, 65, 65);" />
+            <engine:Label text="Output:" />
+            <engine:VisualElement name="OutputTexture" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/unity-chan!/Unity-chan!%20Model/Documentation/UnityChanLicense2.0/License%20Logo/Others/jpg/Dark_Silhouette.jpg?fileID=2800000&amp;guid=29ceb9749c224174e9177a5c1ab7a909&amp;type=3#Dark_Silhouette&quot;); padding-left: 10px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; height: 256px; width: 256px; max-width: 256px; max-height: 256px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

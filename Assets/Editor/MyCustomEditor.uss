@@ -1,0 +1,17 @@
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(68, 138, 255);
+}
+
+.object-field {
+    opacity: 1;
+}
+
+.custom-foldout-content {
+    flex-wrap: wrap;
+}
+
+.textures-output {
+    flex-wrap: wrap;
+}
