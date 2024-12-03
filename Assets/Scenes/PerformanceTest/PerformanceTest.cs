@@ -40,11 +40,11 @@ namespace VatBaker.Example
                 var go = Instantiate(prefab, position, Quaternion.identity, transform);
                 
                 // Set random animation time offset
-                var r = go.GetComponentInChildren<Renderer>();
-                var mpb = new MaterialPropertyBlock();
-                var animLength = r.sharedMaterial.GetFloat(VatShaderProperty.VatAnimLength);
-                mpb.SetFloat(AnimationTimeOffset, Random.value * animLength);
-                r.SetPropertyBlock(mpb);
+                // var r = go.GetComponentInChildren<Renderer>();
+                // var mpb = new MaterialPropertyBlock();
+                // var animLength = r.sharedMaterial.GetFloat(VatShaderProperty.VatAnimLength);
+                // mpb.SetFloat(AnimationTimeOffset, Random.value * animLength);
+                // r.SetPropertyBlock(mpb);
                     
                 _gameObjects.Push(go);
             }

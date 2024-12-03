@@ -4,7 +4,7 @@
     <engine:TextField label="Output path" placeholder-text="Assetstext/BakedTextures" name="FolderOutputTextfield" readonly="true" hide-placeholder-on-focus="false" style="width: 100%; flex-direction: row; align-self: flex-start;">
         <engine:Button text="..." name="SelectOutputFolderButton" style="width: auto; white-space: nowrap; -unity-text-align: middle-center;" />
     </engine:TextField>
-    <engine:Toggle label="Pack Animatons(WIP)" name="MultipleAnimations" />
+<!--    <engine:Toggle label="Pack Animatons(WIP)" name="MultipleAnimations" />-->
     <engine:Foldout text="AnmationClips" name="AnimationsFoldout" style="flex-wrap: wrap;" />
     <editor:ObjectField label="Shader" name="ShaderObjectField" />
     <engine:EnumField label="Enum" type="UnityEngine.Space, UnityEngine.CoreModule" include-obsolete-values="false" name="AnimationSpaceEnum" />
